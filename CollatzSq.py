@@ -7,15 +7,15 @@ def collatz(number):
         print('Number has to be larger than 0')
     elif (number % 2 == 0):
         newCollatz = number // 2
-        print('Collatz result = even: ', newCollatz)
+        print('Collatz result = odd: ', newCollatz)
         return newCollatz
     else:
         newCollatz = 3 * number + 1
-        print('Collatz result = odd: ', newCollatz)
+        print('Collatz result = even: ', newCollatz)
         return newCollatz
 
 
-userChoice = int(input());
+userChoice = int(input('User Choice'));
 
 def finalCollatz(userChoice):
 
