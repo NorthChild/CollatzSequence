@@ -28,4 +28,3 @@ def finalCollatz(userChoice):
 
 
 finalCollatz(userChoice)
-
