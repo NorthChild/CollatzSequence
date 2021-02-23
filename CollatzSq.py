@@ -1,5 +1,7 @@
 # COLLATZ SEQUENCE
 
+
+# lets create the collatz sequence, where if a number(n) is even: n // 2, and if n is odd: 3 * n + 1
 def collatz(number):
     if (number == 1):
         print('Arrived at final number')
@@ -14,9 +16,11 @@ def collatz(number):
         print('Collatz iteration = ', newCollatz)
         return newCollatz
 
-
+    
+# the users chosen number will be stored as a integer in this variable 
 userChoice = int(input('User Choice: '));
 
+# create the loop that iterates on the chosen number till n is 1 
 def finalCollatz(userChoice):
 
     newNum = collatz(userChoice)
