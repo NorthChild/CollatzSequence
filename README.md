@@ -4,3 +4,4 @@ a program to display the curious mathematical sequence also known as Collatz Con
 
 read more on the topic:
 https://en.wikipedia.org/wiki/Collatz_conjecture
+
